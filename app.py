@@ -669,19 +669,8 @@ if __name__ == "__main__":
         server_port=7860,
         share=False,
         show_error=True,
-        theme=gr.themes.Soft(
+        theme=gr.themes.Base(
             primary_hue="indigo",
             secondary_hue="purple",
         ),
-        css="""
-            #convert-btn {
-                background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
-                border: none !important;
-                font-size: 1.1rem !important;
-                padding: 12px 32px !important;
-            }
-            #convert-btn:hover {
-                background: linear-gradient(135deg, #4f46e5, #7c3aed) !important;
-            }
-        """,
     )
